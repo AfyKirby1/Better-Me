@@ -197,12 +197,15 @@ We welcome contributions from developers who share our vision of gentle, inclusi
 
 ## 📚 Documentation
 
-- [Design Document](DESIGN_DOCUMENT.md) - Comprehensive technical design
-- [Gamification Psychology](GAMIFIED.md) - Advanced psychological framework
-- [Requirements](REQUIREMENTS.md) - Detailed feature specifications
-- [Architecture Guide](docs/ARCHITECTURE.md) - System architecture details
-- [User Guide](docs/USER_GUIDE.md) - Gentle guidance for users
-- [Contributing](CONTRIBUTING.md) - How to contribute to the project
+- [User Guide](docs/USER_GUIDE.md) - Complete user manual and getting started guide
+- [Architecture Guide](docs/ARCHITECTURE.md) - Technical architecture and design decisions
+- [Contributing Guide](CONTRIBUTING.md) - How to contribute to the project
+- [Security Policy](SECURITY.md) - Security practices and vulnerability reporting
+- [Code of Conduct](CODE_OF_CONDUCT.md) - Community guidelines and expectations
+- [Changelog](CHANGELOG.md) - Version history and release notes
+- [Design Document](docs/DESIGN_DOCUMENT.md) - Comprehensive technical design
+- [Requirements](docs/REQUIREMENTS.md) - Detailed feature specifications
+- [Gamification Psychology](docs/GAMIFIED.md) - Advanced psychological framework
 
 ---
 
