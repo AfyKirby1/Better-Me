@@ -9,6 +9,10 @@ dist/
 build/desktop/
 build/win-unpacked/
 
+# Portable distributions
+*.zip
+*.exe
+
 # Electron
 *.log
 *.pid
