@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-slate-200;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-slate-50 to-blue-50 font-inter text-slate-900;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  /* Smooth scrolling for better UX */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom scrollbar for better aesthetics */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-100;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-300 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-400;
+  }
+}
+
+@layer components {
+  /* Button variants */
+  .btn-primary {
+    @apply bg-blue-800 hover:bg-blue-900 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer border border-blue-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-slate-50 text-slate-700 font-medium px-4 py-2 rounded-lg border border-slate-300 transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer;
+  }
+  
+  .btn-success {
+    @apply bg-emerald-600 hover:bg-emerald-700 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer;
+  }
+  
+  .btn-gentle {
+    @apply bg-blue-100 hover:bg-blue-200 text-blue-800 font-medium px-4 py-2 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer;
+  }
+  
+  /* Card components */
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-slate-200 p-6;
+  }
+  
+  .card-gentle {
+    @apply bg-gradient-to-br from-white to-blue-50 rounded-xl shadow-sm border border-blue-200 p-6;
+  }
+  
+  /* Input components */
+  .input-gentle {
+    @apply w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all duration-200;
+  }
+  
+  /* Progress bars */
+  .progress-bar {
+    @apply w-full bg-slate-200 rounded-full h-2 overflow-hidden;
+  }
+  
+  .progress-fill {
+    @apply h-full bg-gradient-to-r from-green-600 to-yellow-500 transition-all duration-500 ease-out;
+  }
+  
+  /* Achievement animations */
+  .achievement-unlock {
+    @apply animate-pulse;
+  }
+  
+  .level-up {
+    @apply animate-bounce;
+  }
+  
+  .bounce-gentle {
+    @apply animate-bounce;
+  }
+  
+  .pulse-gentle {
+    @apply animate-pulse;
+  }
+}
+
+@layer utilities {
+  /* ADHD-optimized utilities */
+  .adhd-high-contrast {
+    @apply text-adhd-high-contrast bg-white border-2 border-adhd-high-contrast;
+  }
+  
+  .adhd-attention {
+    @apply text-adhd-attention-orange font-semibold;
+  }
+  
+  .adhd-focus {
+    @apply bg-adhd-focus-blue text-white;
+  }
+  
+  .adhd-energy {
+    @apply bg-adhd-energy-yellow text-slate-900;
+  }
+  
+  /* Autism-optimized utilities */
+  .autism-soft {
+    @apply bg-autism-soft-blue text-trust-blue;
+  }
+  
+  .autism-gentle {
+    @apply bg-autism-gentle-green text-slate-800;
+  }
+  
+  .autism-warm {
+    @apply bg-autism-warm-beige text-slate-800;
+  }
+  
+  .autism-muted {
+    @apply bg-autism-muted-purple text-slate-800;
+  }
+  
+  /* Reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    .achievement-unlock,
+    .level-up,
+    .bounce-gentle,
+    .pulse-gentle {
+      animation: none;
+    }
+  }
+  
+  /* High contrast mode */
+  @media (prefers-contrast: high) {
+    .card {
+      @apply border-2 border-slate-400;
+    }
+    
+    .btn-primary {
+      @apply border-2 border-blue-900;
+    }
+  }
+}
+
