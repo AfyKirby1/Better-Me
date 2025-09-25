@@ -1,10 +1,16 @@
-# Better-Me 🌱
-*Your Gentle Companion on the Journey of Self-Discovery*
-
-[![Windows](https://img.shields.io/badge/Platform-Windows%2011-blue?style=for-the-badge&logo=windows)](https://www.microsoft.com/en-us/windows)
-[![Electron](https://img.shields.io/badge/Built%20with-Electron-47848f?style=for-the-badge&logo=electron)](https://www.electronjs.org/)
-[![React](https://img.shields.io/badge/Frontend-React%2018-61dafb?style=for-the-badge&logo=react)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178c6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+<div align="center">
+  <img src="header.png" alt="Better-Me - Your Gentle Companion on the Journey of Self-Discovery" width="800">
+  
+  <h1>Better-Me 🌱</h1>
+  <p><em>Your Gentle Companion on the Journey of Self-Discovery</em></p>
+  
+  [![Windows](https://img.shields.io/badge/Platform-Windows%2011-blue?style=for-the-badge&logo=windows)](https://www.microsoft.com/en-us/windows)
+  [![Electron](https://img.shields.io/badge/Built%20with-Electron-47848f?style=for-the-badge&logo=electron)](https://www.electronjs.org/)
+  [![React](https://img.shields.io/badge/Frontend-React%2018-61dafb?style=for-the-badge&logo=react)](https://reactjs.org/)
+  [![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178c6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
+</div>
 
 ---
 
@@ -19,13 +25,10 @@ In a world that often feels overwhelming, Better-Me offers a sanctuary of growth
 
 ### 🌟 Our Philosophy
 
-**Gentle Growth**: Every habit, every goal, every moment of reflection is met with kindness and encouragement. No judgment, only support.
-
-**Your Pace, Your Way**: Whether you're neurodivergent, dealing with anxiety, or simply prefer a different approach, Better-Me adapts to you.
-
-**Celebration of Small Wins**: We believe that every step forward deserves recognition. A 3-day streak is just as worthy of celebration as a 30-day one.
-
-**Privacy & Safety**: Your journey is yours alone. All data stays on your device, creating a safe space for authentic growth.
+- **Gentle Growth**: Every habit, goal, and moment of reflection is met with kindness and encouragement
+- **Your Pace, Your Way**: Adapts to different needs, preferences, and learning styles
+- **Celebration of Progress**: Every step forward deserves recognition, no matter how small
+- **Privacy & Safety**: Your journey stays on your device, creating a safe space for authentic growth
 
 ---
 
@@ -69,23 +72,13 @@ In a world that often feels overwhelming, Better-Me offers a sanctuary of growth
 
 ---
 
-## 🧠 Designed for Every Mind
+## 🧠 Inclusive Design
 
-### For ADHD Minds
-- **Micro-Rewards**: Frequent, satisfying feedback that maintains engagement
-- **Visual Progress**: Clear indicators that help with time awareness
-- **Flexible Structure**: Adaptable systems that work with your natural rhythms
-- **Hyperfocus Support**: Tools that help channel intense focus productively
+Better-Me is designed with accessibility and inclusivity at its core:
 
-### For Autistic Minds
-- **Predictable Patterns**: Consistent, reliable systems that reduce anxiety
-- **Sensory Customization**: Full control over visual and audio elements
-- **Special Interest Integration**: Connect your passions to your goals
-- **Routine Support**: Systems that help build and maintain helpful patterns
-
-### For All Minds
-- **Universal Design**: Accessible to everyone, regardless of neurotype
-- **Customizable Experience**: Make it truly yours
+- **Universal Design**: Accessible to everyone, regardless of ability or learning style
+- **Neurodiversity Support**: Thoughtfully designed for different ways of thinking and processing
+- **Customizable Experience**: Adapt the interface to work best for you
 - **Gentle Learning Curve**: No overwhelming features or complex interfaces
 - **Emotional Intelligence**: Understanding and support for your unique journey
 
@@ -99,18 +92,17 @@ In a world that often feels overwhelming, Better-Me offers a sanctuary of growth
 - 500MB free disk space
 - A heart ready for growth 💚
 
-### Installation
+### Quick Start
 1. **Download**: Get the latest release from our [GitHub Releases](https://github.com/AfyKirby1/Better-Me/releases)
-2. **Install**: Run `Better-Me-Setup.exe` and follow the gentle installation wizard
-3. **Launch**: Open Better-Me from your desktop or start menu
-4. **Begin**: Create your account and start your journey
+2. **Install**: Run the installer or use the portable version
+3. **Launch**: Open Better-Me and explore the gentle interface
+4. **Begin**: Start with one small habit or goal that matters to you
 
 ### Your First Steps
-1. **Welcome**: Take a moment to explore the gentle onboarding experience
-2. **First Habit**: Choose something small and meaningful to you
-3. **First Goal**: Set an intention that excites you
-4. **Reflect**: Write your first journal entry
-5. **Celebrate**: Notice how good it feels to take care of yourself
+- **Explore**: Take time to familiarize yourself with the interface
+- **Start Small**: Choose one habit or goal to begin with
+- **Be Gentle**: Remember, progress over perfection
+- **Celebrate**: Notice and appreciate every small win
 
 ---
 
@@ -237,15 +229,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 💚 A Personal Note
+## 💚 A Message from the Team
 
-Dear friend,
+Better-Me was created from a simple belief: that self-improvement doesn't have to be harsh or overwhelming. It can be gentle, supportive, and even joyful.
 
-If you're reading this, you've already taken the first step toward becoming a better version of yourself. That takes courage, and we're honored to be part of your journey.
-
-Better-Me was born from a simple belief: that self-improvement doesn't have to be harsh, judgmental, or overwhelming. It can be gentle, supportive, and even joyful.
-
-Whether you're here to build better habits, achieve meaningful goals, or simply understand yourself better, we're here to support you. Not with pressure or perfectionism, but with compassion, understanding, and celebration of every step forward.
+Whether you're here to build better habits, achieve meaningful goals, or simply understand yourself better, we're here to support you with compassion, understanding, and celebration of every step forward.
 
 You are worthy of growth. You are worthy of support. You are worthy of becoming exactly who you're meant to be.
 
